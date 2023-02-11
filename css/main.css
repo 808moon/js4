@@ -1,0 +1,27 @@
+span{
+    display:inline-block;
+    width:fit-content;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    font-weight: bold;
+}
+div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+span.multiple{
+    display:inline-block;
+    width:150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: brown;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: inset 5px 5px 15px black;
+    margin: 2px;
+}
